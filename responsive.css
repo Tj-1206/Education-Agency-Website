@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1140px){
+    .navList{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 578px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .boxMain{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .burgir{
+        display: block;
+    }
+    .height-nav-resp{
+        height: 69px;
+    }
+    .visibility-class-resp{
+        opacity: 0;
+    }
+    .textBig{
+        text-align: center;
+    }
+    .textSmall{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .secondSection{
+        flex-direction: column-reverse;
+    }
+    .paras{
+        padding: 0px;
+    }
+}
